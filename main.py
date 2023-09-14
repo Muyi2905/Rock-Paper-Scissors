@@ -29,3 +29,9 @@ elif user_choice == "scissors":
             print("You lose!")
         else:
             print("You win!")
+            
+            play_again = input("Do you want to play again? (y/n) ")
+if play_again.lower() == "y":
+        game()
+else:
+        print("Thanks for playing!")
